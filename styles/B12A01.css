@@ -37,6 +37,7 @@ img  {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 /* header style */
@@ -89,7 +90,7 @@ img  {
     border-radius: 20px;
 }
 
-.users-data-title {
+.h3title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
@@ -161,10 +162,28 @@ img  {
     margin-bottom: 20px;
 }
 
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 .user-name {
     margin-bottom: 2px; /* or 0, adjust as needed */
 } 
 
 .complement-date {
     margin-top: 2px; /* or 0, adjust as needed */
+}
+
+.h6subtitle {
+    font-size: 16px;
+    color: #181818;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.focus {
+    padding: 50px 20px;
+    text-align: center;
 }
