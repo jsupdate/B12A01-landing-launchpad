@@ -82,6 +82,43 @@ img  {
     margin-bottom: 0px;
 }
 
+.users-data {
+    padding: 20px;
+    margin: 50px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+
+.users-data-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.users-data-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    padding-bottom: 20px;
+}
+
+.stat {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 20px 0 0 10px;
+    text-align: center;
+}
+
+.stat-descrition {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
 .star-icons {
     display: flex;
 }
